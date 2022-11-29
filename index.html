@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg" sizes="32x32" href="./images/stopwatch-solid.svg">
+</head>
+<body>
+    <div class="watch">
+        <h1>Stopwatch</h1>
+        <div class="time">
+            00:00.00
+        </div>
+        <div class="controls">
+            <div class="circle" id="play"><i class="fa fa-play"></i></div>
+            <div class="circle" id="pause"><i class="fa fa-pause"></i></div>
+            <div class="circle" id="reset"><i class="fa fa-repeat"></i></div>
+            <div class="circle" id="flag"><i class="fa fa-flag"></i></div>
+        </div>
+    </div>
+    <div class="lap"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
